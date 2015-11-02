@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80f908d-7d80-4211-bafb-abf39746f098" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/modules/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/modules/convert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/modules/countWordFrecuency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Examples/filesystem/filesystem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/modules/leet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/modules/sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Examples/filesystem/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/modules/app.js" afterPath="$PROJECT_DIR$/exercises/modules/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/modules/leet.js" afterPath="$PROJECT_DIR$/exercises/modules/leet.js" />
     </list>
     <ignored path="CursoNodeJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/modules/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/modules/convert.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -56,7 +38,17 @@
         <entry file="file://$PROJECT_DIR$/exercises/modules/leet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convert.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/modules/convert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -72,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countWordFrecuency.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="countWordFrecuency.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercises/modules/countWordFrecuency.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.28">
               <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding />
             </state>
@@ -95,9 +87,9 @@
         <option value="$PROJECT_DIR$/Examples/test.txt" />
         <option value="$PROJECT_DIR$/Examples/filesystem/filesystem.js" />
         <option value="$PROJECT_DIR$/exercises/modules/sanitize.js" />
-        <option value="$PROJECT_DIR$/exercises/modules/app.js" />
         <option value="$PROJECT_DIR$/exercises/modules/convert.js" />
         <option value="$PROJECT_DIR$/exercises/modules/countWordFrecuency.js" />
+        <option value="$PROJECT_DIR$/exercises/modules/app.js" />
         <option value="$PROJECT_DIR$/exercises/modules/leet.js" />
       </list>
     </option>
@@ -280,7 +272,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -308,10 +302,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/modules/countWordFrecuency.js">
+    <entry file="file://$PROJECT_DIR$/exercises/modules/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/modules/leet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -319,7 +321,7 @@
     <entry file="file://$PROJECT_DIR$/exercises/modules/convert.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -332,18 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/modules/leet.js">
+    <entry file="file://$PROJECT_DIR$/exercises/modules/countWordFrecuency.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/modules/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.28">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding />
         </state>
       </provider>

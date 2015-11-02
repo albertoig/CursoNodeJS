@@ -1,12 +1,12 @@
 'use strict';
 
-let convertToUpper = (str) => {
+let leet = (str) => {
 
-    const alphabets = {
+    let result = str;
+    let alphabets = {
         "a": "4",
         "b": "8",
         "e": "3",
-        "f": "ph",
         "g": "6",
         "i": "1",
         "o": "0",
@@ -14,10 +14,13 @@ let convertToUpper = (str) => {
         "t": "7"
     };
 
-    let reg = new RegExp(strToClean, 'g');
-    return str.replace(reg, '');
+    Object.keys(alphabets).map((value, index) => {
+        let reg = new RegExp(value, 'g');
+        result = result.replace(reg, alphabets[value]);
+    });
 
-    return resolution;
+    return result;
 };
 
-module.exports = convertToUpper;
+
+module.exports = leet;
