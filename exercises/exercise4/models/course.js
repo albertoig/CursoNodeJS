@@ -9,6 +9,7 @@ const CourseSchema = new mongoose.Schema({
     creationDate: { type: Date, required: true, default: Date.now },
     closeDate: { type: Date, default: null },
     students: [{type: String }]
+
 },{versionKey: false, toObject: {virtuals: true}, toJSON: {virtuals: true}});
 
 CourseSchema.virtual('fullName').get(function () {

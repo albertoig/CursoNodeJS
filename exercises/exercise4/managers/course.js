@@ -34,9 +34,40 @@ const listAllCourses = (cb) => {
     });
 };
 
+const listOneCourse = (id,cb) => {
+    Course.find({_id:id},(error,course)=>{
+        if(error){
+            console.log(error);
+        }
+        return cb(course);
+    });
+};
+
+const enroll = (params,cb) =>{
+    let idCourse = params.idCourse;
+    let idStudent = params.idStudent;
+
+    return cb();
+};
+
+const closeCourse = (id,cb) =>{
+    Course.findById(id, function (err, course) {
+        if (err) return handleError(err);
+
+        course.open = false;
+        course.save(function (err) {
+            if (err) return handleError(err);
+            cb(course);
+        });
+    });
+};
+
 module.exports = {
     create,
     listOpenCourses,
     listAllCourses,
-    deleteCourse
+    deleteCourse,
+    enroll,
+    listOneCourse,
+    closeCourse
 };
